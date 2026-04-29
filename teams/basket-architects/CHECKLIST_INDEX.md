@@ -55,15 +55,17 @@ Report) rather than separate files.
 
 | Checklist item | Path / URL |
 |---|---|
-| Pitch deck (PPTX) | `20260512/Vouch_Pitch_Deck.pptx` — 16 slides, 1920×1080 |
-| Leave-behind (PPTX) | `20260512/Vouch_Leave_Behind.pptx` — 24 slides, 1920×1080 |
-| Pitch deck (HTML — same content, browser-native) | `20260512/Vouch_Pitch_Deck.html` · live at https://vouchnyc.onrender.com/deck/pitch.html |
+| Pitch deck (PDF) | `20260512/Vouch_Pitch_Deck.pdf` — 16 pages, 1920×1080 |
+| Leave-behind (PDF) | `20260512/Vouch_Leave_Behind.pdf` — 24 pages, 1920×1080 |
+| Pitch deck (PPTX) | `20260512/Vouch_Pitch_Deck.pptx` — 16 slides |
+| Leave-behind (PPTX) | `20260512/Vouch_Leave_Behind.pptx` — 24 slides |
+| Pitch deck (HTML — browser-native, source of truth) | `20260512/Vouch_Pitch_Deck.html` · live at https://vouchnyc.onrender.com/deck/pitch.html |
 | Leave-behind (HTML) | `20260512/Vouch_Leave_Behind.html` · live at https://vouchnyc.onrender.com/deck/leave-behind.html |
 | Demo Day live-metrics script | `20260512/metrics_snapshot.py` |
 | Public metrics API (composite) | `GET https://vouch-api-5pa4.onrender.com/api/metrics` — returns `{signups, active_users, page_views, ratings}` |
 | Public user-count API (legacy single field) | `GET https://vouch-api-5pa4.onrender.com/api/user-count` — see `20260402/user_count_api.md` |
 
-**PPTX and HTML are content-identical** — both reflect the April 28 edits (4-founder team, $200K pre-seed framing, 100/411/58%/4.1 traction, Feb/Mar/Apr cohort labels). The PPTX was rendered from the HTML source via headless Chromium at design size (1920×1080) and assembled with python-pptx, so each PPT slide is a pixel-perfect snapshot of the HTML. Use whichever format the audience prefers.
+**All three formats are content-identical** — PDF, PPTX, and HTML all reflect the April 28 edits (4-founder team, $200K pre-seed framing, 100/411/58%/4.1 traction, Feb/Mar/Apr cohort labels). HTML is the source of truth; PDF and PPTX are rendered from it at design size (1920×1080) via headless Chromium. Use whichever format the audience prefers — PDF is best for printing or read-along; PPTX for PowerPoint editing; HTML for live browser presenting.
 
 ## Product Repo — separate from course repo
 
