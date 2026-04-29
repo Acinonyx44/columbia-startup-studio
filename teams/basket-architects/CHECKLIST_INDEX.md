@@ -55,15 +55,15 @@ Report) rather than separate files.
 
 | Checklist item | Path / URL |
 |---|---|
-| Pitch deck (HTML — **latest**, post-Apr-28 edits) | `20260512/Vouch_Pitch_Deck.html` · live at https://vouchnyc.onrender.com/deck/pitch.html |
-| Leave-behind (HTML — **latest**, post-Apr-28 edits) | `20260512/Vouch_Leave_Behind.html` · live at https://vouchnyc.onrender.com/deck/leave-behind.html |
-| Pitch deck (PPTX — original export, pre-Apr-28 edits) | `20260512/Vouch_Pitch_Deck.pptx` |
-| Leave-behind (PPTX — original export) | `20260512/Vouch_Leave_Behind.pptx` |
+| Pitch deck (PPTX) | `20260512/Vouch_Pitch_Deck.pptx` — 16 slides, 1920×1080 |
+| Leave-behind (PPTX) | `20260512/Vouch_Leave_Behind.pptx` — 24 slides, 1920×1080 |
+| Pitch deck (HTML — same content, browser-native) | `20260512/Vouch_Pitch_Deck.html` · live at https://vouchnyc.onrender.com/deck/pitch.html |
+| Leave-behind (HTML) | `20260512/Vouch_Leave_Behind.html` · live at https://vouchnyc.onrender.com/deck/leave-behind.html |
 | Demo Day live-metrics script | `20260512/metrics_snapshot.py` |
 | Public metrics API (composite) | `GET https://vouch-api-5pa4.onrender.com/api/metrics` — returns `{signups, active_users, page_views, ratings}` |
 | Public user-count API (legacy single field) | `GET https://vouch-api-5pa4.onrender.com/api/user-count` — see `20260402/user_count_api.md` |
 
-**HTML vs PPTX:** The HTML files are the canonical, up-to-date decks. The PPTX files were exported from the design tool before the April 28 content edits (4-founder team, $200K pre-seed framing, 100/411/58%/4.1 traction, Feb/Mar/Apr cohort labels). For the live demo and any judge follow-up, share the HTML URLs.
+**PPTX and HTML are content-identical** — both reflect the April 28 edits (4-founder team, $200K pre-seed framing, 100/411/58%/4.1 traction, Feb/Mar/Apr cohort labels). The PPTX was rendered from the HTML source via headless Chromium at design size (1920×1080) and assembled with python-pptx, so each PPT slide is a pixel-perfect snapshot of the HTML. Use whichever format the audience prefers.
 
 ## Product Repo — separate from course repo
 
