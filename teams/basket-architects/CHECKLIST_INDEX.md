@@ -54,7 +54,8 @@ Report) rather than separate files.
 |---|---|
 | Pitch deck | `20260512/Vouch_Pitch_Deck.pptx` |
 | Leave-behind | `20260512/Vouch_Leave_Behind.pptx` |
-| Public metrics API (live user count) | `GET https://vouch-api-5pa4.onrender.com/api/user-count` — see `20260402/user_count_api.md` |
+| Public metrics API (composite) | `GET https://vouch-api-5pa4.onrender.com/api/metrics` — returns `{signups, active_users, page_views, ratings}` |
+| Public user-count API (legacy single field) | `GET https://vouch-api-5pa4.onrender.com/api/user-count` — see `20260402/user_count_api.md` |
 
 ## Product Repo — separate from course repo
 
