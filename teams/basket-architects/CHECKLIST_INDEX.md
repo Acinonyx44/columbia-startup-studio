@@ -53,12 +53,17 @@ Report) rather than separate files.
 
 ## Demo Day (May 12) — submitted early
 
-| Checklist item | Path |
+| Checklist item | Path / URL |
 |---|---|
-| Pitch deck | `20260512/Vouch_Pitch_Deck.pptx` |
-| Leave-behind | `20260512/Vouch_Leave_Behind.pptx` |
+| Pitch deck (HTML — **latest**, post-Apr-28 edits) | `20260512/Vouch_Pitch_Deck.html` · live at https://vouchnyc.onrender.com/deck/pitch.html |
+| Leave-behind (HTML — **latest**, post-Apr-28 edits) | `20260512/Vouch_Leave_Behind.html` · live at https://vouchnyc.onrender.com/deck/leave-behind.html |
+| Pitch deck (PPTX — original export, pre-Apr-28 edits) | `20260512/Vouch_Pitch_Deck.pptx` |
+| Leave-behind (PPTX — original export) | `20260512/Vouch_Leave_Behind.pptx` |
+| Demo Day live-metrics script | `20260512/metrics_snapshot.py` |
 | Public metrics API (composite) | `GET https://vouch-api-5pa4.onrender.com/api/metrics` — returns `{signups, active_users, page_views, ratings}` |
 | Public user-count API (legacy single field) | `GET https://vouch-api-5pa4.onrender.com/api/user-count` — see `20260402/user_count_api.md` |
+
+**HTML vs PPTX:** The HTML files are the canonical, up-to-date decks. The PPTX files were exported from the design tool before the April 28 content edits (4-founder team, $200K pre-seed framing, 100/411/58%/4.1 traction, Feb/Mar/Apr cohort labels). For the live demo and any judge follow-up, share the HTML URLs.
 
 ## Product Repo — separate from course repo
 
