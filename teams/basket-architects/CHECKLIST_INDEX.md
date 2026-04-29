@@ -47,7 +47,14 @@ Report) rather than separate files.
 
 - [x] Final product — **frozen at https://vouchnyc.onrender.com** as of April 21, 2026 (16-city US dataset seeded — 6,779 places across 6 categories)
 - [ ] Final measurement data — pull GA4 + Amplitude exports
-- [ ] Demo Day pitch deck (May 12)
+
+## Demo Day (May 12) — submitted early
+
+| Checklist item | Path |
+|---|---|
+| Pitch deck | `20260512/Vouch_Pitch_Deck.pptx` |
+| Leave-behind | `20260512/Vouch_Leave_Behind.pptx` |
+| Public metrics API (live user count) | `GET https://vouch-api-5pa4.onrender.com/api/user-count` — see `20260402/user_count_api.md` |
 
 ## Product Repo — separate from course repo
 
