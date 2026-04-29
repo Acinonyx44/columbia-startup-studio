@@ -36,6 +36,9 @@ Report) rather than separate files.
 | Checklist item | Path |
 |---|---|
 | Week 9 peer-review check-in (3/24) | `20260324/checkin.md` |
+| Weekly update — week of April 14 | `20260414/weekly_update.md` |
+| Weekly update — week of April 21 | `20260421/weekly_update.md` |
+| Weekly update — week of April 28 (today) | `20260428/weekly_update.md` |
 | **Experiments 3 + 4** — channel + growth experiments | `20260402/Vouch_Growth_Strategy_Part1.pdf` §2 (Reddit / Campus / Instagram channel experiments with explicit hypotheses, CTAs, goals, costs) |
 | **Analytics setup — AARRR / pirate metrics** | `20260402/Vouch_Growth_Strategy_Part1.pdf` §3 — five-stage funnel (Awareness → Interest → Signup → Activation → Retention), instrumented dual-stack (GA4 ID `G-TGJBM7MPX4` live + Amplitude live). Public user count: `https://vouch-api-5pa4.onrender.com/api/user-count` |
 | Pricing test (Week 11) | `20260402/Vouch_Growth_Strategy_Part1.pdf` §3 — KPI targets and pricing-tier risk addressed in §5 |
